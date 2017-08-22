@@ -30,9 +30,9 @@ public class DatabaseConfiguration {
 		@Bean
 	    DataSource mySqlDataSource() throws SQLException {
 	        MysqlDataSource dataSource = new MysqlDataSource();
-	        dataSource.setUser("root");
-	        dataSource.setPassword("");
-	        dataSource.setURL("jdbc:mysql://localhost:3306/springdb");
+	        dataSource.setUser("springdb");
+	        dataSource.setPassword("12345");
+	        dataSource.setURL("jdbc:mysql://mysql:3306/springdb");
 	        return dataSource;
 	    }
 }
