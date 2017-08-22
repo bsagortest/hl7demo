@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 
-import oracle.jdbc.pool.OracleDataSource;
+//import oracle.jdbc.pool.OracleDataSource;
 
 @Configuration
 public class DatabaseConfiguration {

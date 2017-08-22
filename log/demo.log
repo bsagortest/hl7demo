@@ -1681,4 +1681,96 @@ Verify the connector's configuration, identify and stop any process that's liste
 ""2017-08-22 15:30:41 [CamelMainRunController] INFO  o.a.camel.spring.SpringCamelContext - Total 0 routes, of which 0 are started.
 ""2017-08-22 15:30:41 [CamelMainRunController] INFO  o.a.camel.spring.SpringCamelContext - Apache Camel 2.19.1 (CamelContext: camel-1) started in 0.183 seconds
 ""2017-08-22 15:30:53 [http-nio-9080-exec-7] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-08-22 15:44:03 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication v0.0.1-SNAPSHOT on DESKTOP-SOAK3BJ with PID 1832 (D:\github\demo\target\demo-0.0.1-SNAPSHOT.jar started by bsago in D:\github\demo)
+""2017-08-22 15:44:03 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+""2017-08-22 15:44:03 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5cb0d902: startup date [Tue Aug 22 15:44:03 BDT 2017]; root of context hierarchy
+""2017-08-22 15:44:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$41a1a613] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2017-08-22 15:44:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$63cb6c32] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2017-08-22 15:44:06 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9080 (http)
+""2017-08-22 15:44:06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-08-22 15:44:06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'dandelionFilter' to: [/*]
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dandelionServlet' to [/dandelion-assets/*]
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  c.g.d.core.web.DandelionFilter - Initializing the Dandelion context
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing configuration loader
+""2017-08-22 15:44:06 [localhost-startStop-1] WARN  c.g.d.c.c.StandardConfigurationLoader - No file "dandelion.properties" was found in "dandelion/dandelion.properties" (classpath). The default configuration will be used.
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - ===========================================
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - 
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - Dandelion "dev" profile activated.
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - 
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - ===========================================
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Scanning for components
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found component(s): ddl-core, ddl-dt
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing bundle loaders
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found bundle loader: dandelion-datatables
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found bundle loader: dandelion
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Bundle loaders initialized: dandelion-datatables, dandelion
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing extra loaders
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Extra loaders initialized: bower
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset locators
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: classpath
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: api
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: webapp
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: remote
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: jar
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: file
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset caching system
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset caching system: default
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset cache system initialized: default
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset processors
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: JsMinProcessor
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: CssMinProcessor
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: CssUrlRewritingProcessor
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset processors disabled. All assets will be served as-is.
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset versioning
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset versioning strategy: content
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset versioning strategy: fixed
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Selected asset versioning strategy: content
+""2017-08-22 15:44:06 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing bundle storage
+""2017-08-22 15:44:08 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Bundle storage initialized with 65 bundles
+""2017-08-22 15:44:08 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset storage
+""2017-08-22 15:44:08 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset storage initialized with: memory
+""2017-08-22 15:44:08 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing handlers
+""2017-08-22 15:44:08 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (1/3) ReloadBundlePreHandler (rank: 0)
+""2017-08-22 15:44:08 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (2/3) ClearStoragePreHandler (rank: 0)
+""2017-08-22 15:44:08 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (3/3) ClearCachePreHandler (rank: 0)
+""2017-08-22 15:44:08 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (1/8) SaveRequestPostHandler (rank: 1)
+""2017-08-22 15:44:08 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (2/8) ProcessJsPostHandler (rank: 2)
+""2017-08-22 15:44:08 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (3/8) ETagPostHandler (rank: 10)
+""2017-08-22 15:44:08 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (4/8) AssetInjectionPostHandler (rank: 20)
+""2017-08-22 15:44:08 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (5/8) GzipCompressionPostHandler (rank: 30)
+""2017-08-22 15:44:08 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (6/8) ReportAlertPostHandler (rank: 30)
+""2017-08-22 15:44:08 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (7/8) CacheHeaderPostHandler (rank: 40)
+""2017-08-22 15:44:08 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (8/8) DebuggerPostHandler (rank: 50)
+""2017-08-22 15:44:08 [localhost-startStop-1] INFO  c.g.d.core.web.DandelionFilter - Dandelion context initialized
+""2017-08-22 15:44:36 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-08-22 15:44:36 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-08-22 15:44:36 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-08-22 15:44:36 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-08-22 15:44:36 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-08-22 15:44:36 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-08-22 15:44:40 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+""2017-08-22 15:44:41 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-08-22 15:44:48 [main] INFO  o.a.c.i.c.DefaultTypeConverter - Loaded 202 type converters
+""2017-08-22 15:44:49 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-08-22 15:44:49 [main] INFO  o.a.c.spring.boot.RoutesCollector - Loading additional Camel XML routes from: classpath:camel/*.xml
+""2017-08-22 15:44:49 [main] INFO  o.a.c.spring.boot.RoutesCollector - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+""2017-08-22 15:44:49 [main] INFO  o.a.c.spring.boot.RoutesCollector - Starting CamelMainRunController to ensure the main thread keeps running
+""2017-08-22 15:44:49 [CamelMainRunController] INFO  o.a.camel.spring.SpringCamelContext - Apache Camel 2.19.1 (CamelContext: camel-1) is starting
+""2017-08-22 15:44:49 [CamelMainRunController] INFO  o.a.c.m.ManagedManagementStrategy - JMX is enabled
+""2017-08-22 15:44:49 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9080 (http)
+""2017-08-22 15:44:49 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 46.503 seconds (JVM running for 47.02)
+""2017-08-22 15:44:49 [CamelMainRunController] INFO  o.a.c.i.DefaultRuntimeEndpointRegistry - Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+""2017-08-22 15:44:49 [CamelMainRunController] INFO  o.a.camel.spring.SpringCamelContext - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+""2017-08-22 15:44:49 [CamelMainRunController] INFO  o.a.camel.spring.SpringCamelContext - Total 0 routes, of which 0 are started.
+""2017-08-22 15:44:49 [CamelMainRunController] INFO  o.a.camel.spring.SpringCamelContext - Apache Camel 2.19.1 (CamelContext: camel-1) started in 0.182 seconds
+""2017-08-22 15:44:52 [http-nio-9080-exec-10] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
 "
