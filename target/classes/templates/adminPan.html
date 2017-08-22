@@ -1,0 +1,121 @@
+
+<!DOCTYPE HTML>
+
+<html>
+<head lang="en" th:replace="fragments/header :: header">
+</head>
+<body>
+
+	<div lang="en" th:replace="fragments/nav_admin_pan :: nav"></div>
+
+
+	<!-- container -->
+	<div id="container">
+
+		<span> <label ID="ltrOption"></label> <img
+			src="../../Images/navdir.png" id="navdir" alt="navdir" />
+		</span>
+
+		<div id="links"></div>
+		
+		<!-- Database part -->
+		<div id="dbPart"
+			style="height: 85%; margin-bottom: 10px; overflow-y: auto; overflow-x: hidden; margin-left: 20px; margin-right: 20px">
+			<div class="row">
+				 <form style="margin-left: 20px;">
+			      <fieldset>
+			          User: <br/>
+			          <input type = "text"
+			                 id = "dbUser"
+			                 placeholder = "User" /> <br/><br/>
+			                 
+			          Password: <br/>
+			          <input type = "password"
+			                  id = "dbPwd"
+			                  placeholder = "secret" /> <br/><br/>
+			        
+			          SID: <br/>
+			          <input type = "text"
+			                  id = "dbSid"
+			                  placeholder = "SID" /> <br/><br/>
+			        
+			          Host: <br/>
+			          <input type = "text"
+			                  id = "dbHost"
+			                  placeholder = "Host" /> <br/><br/>
+			        
+			        
+			          Port: <br/>
+			          <input type = "text"
+			                  id = "dbPort"
+			                  placeholder = "Port" /> <br/><br/>
+			        
+			      </fieldset>
+			      <input type="submit" class="btn btn-success" value="Save"/> 
+			      <input type="button" class="btn btn-success" value="Test"/>
+			      <input type="button" class="btn btn-warning" value="Clear"/>
+			    </form>
+			</div>
+		</div>
+		<!-- End of Database part -->
+		
+		<!-- Server part -->
+		<div id="serverPart"
+			style="height: 85%; margin-bottom: 10px; overflow-y: auto; overflow-x: hidden; margin-left: 20px; margin-right: 20px">
+			<div class="row">
+				 <form style="margin-left: 20px;">
+			      <fieldset>
+			          IP: <br/>
+			          <input type = "text"
+			                 id = "serverIp"
+			                 placeholder = "Server Ip" /> <br/><br/>
+			                 
+			          PORT: <br/>
+			          <input type = "text"
+			                  id = "serverPort"
+			                  placeholder = "Server Port" /> <br/><br/>
+			        
+			      </fieldset>
+			      <input type="button" class="btn btn-success" value="Start"/> 
+			      <input type="button" class="btn btn-danger" value="Stop"/>
+			      <input type="button" class="btn btn-warning" value="Clear"/>
+			    </form>
+			</div>
+		</div>
+		<!-- End of Server part -->
+		
+	</div>
+	<!-- //container -->
+</body>
+</html>
+
+<script th:inline="javascript">
+	$(document).ready(function() {
+		
+		var doWhenLoad = function() {
+			$("#ltrOption").text("Configure Database for PACS ENGINE");
+			$("#dbPart").show();
+			$("#serverPart").hide();
+		}
+
+		doWhenLoad();
+		
+		$('#btnDatabase').click(function() {
+			$("#ltrOption").text("Configure Database for PACS ENGINE");
+			$("#dbPart").show();
+			$("#serverPart").hide();
+		});
+
+		$('#btnServer').click(function() {
+			$("#ltrOption").text("Configure Server for PACS ENGINE");
+			$("#serverPart").show();
+			$("#dbPart").hide();
+		});
+		
+		$('#btnBack').click(function() {
+			window.history.back();
+		});
+
+	});
+</script>
+

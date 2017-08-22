@@ -1,0 +1,598 @@
+
+<!DOCTYPE HTML>
+
+<html>
+<head lang="en" th:replace="fragments/header :: header">
+</head>
+<body>
+
+	<div lang="en" th:replace="fragments/nav :: nav"></div>
+
+
+	<!-- container -->
+	<div id="container">
+
+		<span> <label ID="ltrOption"></label> <img
+			src="../../Images/navdir.png" id="navdir" alt="navdir" />
+		</span>
+
+		<div id="links"></div>
+		
+		<!-- HL7001 Table  part -->
+		<div id="hl7001Part"
+			style="height: 85%; margin-bottom: 10px; overflow-y: auto; overflow-x: hidden; margin-left: 20px; margin-right: 20px; font-size: 12px; ">
+			<div class="row">
+				<div class="span12" style="margin-left: 20px; margin-right: 20px">
+					<table id="myTableHl7001" class="table table-striped table-bordered" cellspacing="0" width="100%">
+						<thead>
+							<tr>
+								<th></th>
+								<th>Message No</th>
+								<th>Order No</th>
+								<th>Order Date</th>
+								<th>Client Code</th>
+							</tr>
+						</thead>
+						<tfoot>
+				            <tr>
+				            	<th></th>
+				                <th>Message No</th>
+								<th>Order No</th>
+								<th>Order Date</th>
+								<th>Client Code</th>
+				            </tr>
+				        </tfoot>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- End of HL7001 Table  part -->
+		
+		<!-- HL7003 Table  part -->
+		<div id="hl7003Part"
+			style="height: 85%; margin-bottom: 10px; overflow-y: auto; overflow-x: hidden; margin-left: 20px; margin-right: 20px; font-size: 12px; ">
+			<div class="row">
+				<div class="span12" style="margin-left: 20px; margin-right: 20px">
+					<table id="myTableHl7003" class="table table-striped table-bordered" cellspacing="0" width="100%">
+						<thead>
+							<tr>
+								<th></th>
+								<th>Order No</th>
+								<th>Message No</th>
+								<th>Order Date/Time</th>
+								<th>Client Code</th>
+							</tr>
+						</thead>
+						<tfoot>
+				            <tr>
+				            	<th></th>
+				                <th>Order No</th>
+								<th>Message No</th>
+								<th>Order Date/Time</th>
+								<th>Client Code</th>
+				            </tr>
+				        </tfoot>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- End of HL7003 Table  part -->
+
+		<!-- HL7004 Table  part -->
+		<div id="hl7004Part"
+			style="height: 85%; margin-bottom: 10px; overflow-y: auto; overflow-x: hidden; margin-left: 20px; margin-right: 20px; font-size: 12px; ">
+			<div class="row">
+				<div class="span12" style="margin-left: 20px; margin-right: 20px">
+					<!-- <table id="myTableHl7004" class="table table-striped" dt:table="true" dt:lengthMenu="2, 10, 25, 50"> -->
+					<!-- <table id="myTableHl7004" class="display" cellspacing="0" width="100%"> -->
+					<!-- bootstrap -->
+					<table id="myTableHl7004" class="table table-striped table-bordered" cellspacing="0" width="100%">
+						<thead>
+							<tr>
+								<th></th>
+								<th>Message No</th>
+								<th>Message Received</th>
+								<th>Message Type</th>
+							</tr>
+						</thead>
+						<tfoot>
+				            <tr>
+				            	<th></th>
+				                <th>Message No</th>
+				                <th>Message Received</th>
+				                <th>Message Type</th>
+				            </tr>
+				        </tfoot>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- End of HL7004 Table  part -->
+		
+		<!-- HL7007 Table  part -->
+		<div id="hl7007Part"
+			style="height: 85%; margin-bottom: 10px; overflow-y: auto; overflow-x: hidden; margin-left: 20px; margin-right: 20px; font-size: 12px; ">
+			<div class="row">
+				<div class="span12" style="margin-left: 20px; margin-right: 20px">
+					<table id="myTableHl7007" class="table table-striped table-bordered" cellspacing="0" width="100%">
+						<thead>
+							<tr>
+								<th>Message No</th>
+								<th>Connection Open Date</th>
+								<th>Port Address</th>
+								<th>Client Code</th>
+							</tr>
+						</thead>
+						<tfoot>
+				            <tr>
+				                <th>Message No</th>
+								<th>Connection Open Date</th>
+								<th>Port Address</th>
+								<th>Client Code</th>
+				            </tr>
+				        </tfoot>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- End of HL7007 Table  part -->
+		
+		<!-- HL7009 Table  part -->
+		<!-- <div id="hl7009Part"
+			style="height: 85%; margin-bottom: 10px; overflow-y: auto; overflow-x: hidden; margin-left: 20px; margin-right: 20px; font-size: 12px; ">
+			<div class="row">
+				<div class="span12" style="margin-left: 20px; margin-right: 20px">
+					<table id="myTableHl7009" class="table table-striped table-bordered" cellspacing="0" width="100%">
+						<thead>
+							<tr>
+								<th>Client Code</th>
+								<th>Client Name</th>
+								<th>Client Ip</th>
+								<th>Port Address</th>
+								<th>Sender Name</th>
+							</tr>
+						</thead>
+						<tfoot>
+				            <tr>
+								<th>Client Code</th>
+								<th>Client Name</th>
+								<th>Client Ip</th>
+								<th>Port Address</th>
+								<th>Sender Name</th>
+				            </tr>
+				        </tfoot>
+					</table>
+				</div>
+			</div>
+		</div> -->
+		<!-- End of HL7009 Table  part -->
+		
+		
+		<!-- HL7009 Table  part Test-->
+			<div id="hl7009Part"
+				style="height: 85%; margin-bottom: 10px; overflow-y: auto; overflow-x: hidden; margin-left: 20px; margin-right: 20px; font-size: 12px; ">
+					<div class="row">
+						<div id="my-datatable" class="span12" style="margin-left: 20px; margin-right: 20px">
+						
+						</div>
+					</div>
+			</div>
+		
+		<!-- End of HL7009 Table  part Test-->
+		
+		<!-- Test part -->
+		<div id="testPart"
+			style="height: 85%; margin-bottom: 10px; overflow-y: auto; overflow-x: hidden; margin-left: 20px; margin-right: 20px; font-size: 12px; ">
+			<div class="row">
+				<div class="span12" style="margin-left: 20px; margin-right: 20px">
+					<table id="myTableTest" class="table table-striped table-bordered" cellspacing="0" width="100%">
+						<thead>
+							<tr>
+								<th></th>
+								<th>Message No</th>
+								<th>Message Received</th>
+								<th>Message Type</th>
+							</tr>
+						</thead>
+						<tfoot>
+				            <tr>
+				            	<th></th>
+				                <th>Message No</th>
+				                <th>Message Received</th>
+				                <th>Message Type</th>
+				            </tr>
+				        </tfoot>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- End of the Test part -->
+		
+		<!-- Setup part -->
+		<div id="setupPart"
+			style="height: 85%; margin-bottom: 10px; overflow-y: auto; overflow-x: hidden; margin-left: 20px; margin-right: 20px">
+			<div class="row">
+				<ol>
+					<li style="margin-left: 20px; color: gray; font-size: large;">
+						<a id="myAnchor" style="color: gray !important; font-size: large;" href="/adminPan">Administrator Panel</a>
+					</li>
+				</ol>
+			</div>
+		</div>
+		<!-- End of Setup part -->
+	</div>
+	<!-- //container -->
+</body>
+</html>
+
+<script th:inline="javascript">
+
+/* Formatting function for row details - modify as needed */
+function formatHL7004 ( d ) {
+    // `d` is the original data object for the row
+    return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px; font-size: 11px; color: blue; background: aqua;">'+
+        '<tr>'+
+            '<td>Message:</td>'+
+            '<td colspan="3">'+d.messageData+'</td>'+
+        '</tr>'+
+        '<tr>'+
+	        '<td>Ack:</td>'+
+	        '<td colspan="3">'+d.ackMsg+'</td>'+
+	    '</tr>'+
+	    '<tr>'+
+	        '<td>Ack Sending Date/Time:</td>'+
+	        '<td>'+d.sendingDate+'<br/> '+d.sendingTime+'</td>'+
+	        '<td align="right">Vendor Id:</td>'+
+	        '<td>'+d.vendorId+'</td>'+
+    	'</tr>'+
+    '</table>';
+}
+
+
+function formatHL7003 ( d ) {
+    // `d` is the original data object for the row
+    return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px; font-size: 11px; color: blue; background: aqua;">'+
+        '<tr>'+
+            '<td>Message:</td>'+
+            '<td colspan="3">'+d.messageData+'</td>'+
+        '</tr>'+
+        '<tr>'+
+	        '<td>Ack:</td>'+
+	        '<td colspan="3">'+d.ackMsg+'</td>'+
+	    '</tr>'+
+	    '<tr>'+
+	        '<td>Ack Received Date/Time:</td>'+
+	        '<td>'+d.receivingDate+'<br/> '+d.receivingTime+'</td>'+
+	        '<td align="right">Vendor Id:</td>'+
+	        '<td>'+d.vendorId+'</td>'+
+    	'</tr>'+
+    '</table>';
+}
+
+
+function formatHL7001 ( d ) {
+    // `d` is the original data object for the row
+    return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px; font-size: 11px; color: blue; background: aqua;">'+
+        '<tr>'+
+            '<td>Message:</td>'+
+            '<td colspan="3">'+d.messageData+'</td>'+
+        '</tr>'+        
+    '</table>';
+}
+
+
+function LoadData() {
+    var myDataTable = $("#my-datatable").html('<table class="table table-striped table-bordered" cellspacing="0" width="100%"><thead><tr><th>Client Code</th><th>Client Name</th><th>Client Ip</th><th>Port Address</th><th>Sender Name</th></tr></thead><tfoot><tr><th>Client Code</th><th>Client Name</th><th>Client Ip</th><th>Port Address</th><th>Sender Name</th></tr></tfoot></table>');
+    $("table",myDataTable).DataTable({
+			"lengthMenu": [ [5, 10, 25, 50, -1], [5, 10, 25, 50, "All"] ],
+			"paging"	: true,
+	        "ordering"	: true,
+	        "info"		: true,
+	        "pagingType": "full_numbers",
+	        
+	        "ajax": {
+	            "url": "/hl7009Data",
+	            },
+	            
+           "columns": [
+               { "data": "clientCode" },
+               { "data": "clientName"},
+               { "data": "clientIp"},
+               { "data": "portAddress"},
+               { "data": "senderName"}
+              ],
+             "order": [[1, 'asc']]
+		} );
+	 }
+	 
+	$(document).ready(function() {
+		var doWhenLoad = function() {
+			$("#ltrOption").text("HL7001 Table Data");
+			$("#hl7001Part").show();
+			$("#hl7003Part").hide();
+			$("#hl7004Part").hide();
+			$("#hl7007Part").hide();
+			$("#hl7008Part").hide();
+			$("#hl7009Part").hide();
+			$("#setupPart").hide();
+			$("#testPart").hide();
+		}
+
+		doWhenLoad();
+
+		$("#btnHl7001").click(function() {
+			$("#ltrOption").text("HL7001 Table Data");
+			$("#hl7001Part").show();
+			$("#hl7003Part").hide();
+			$("#hl7004Part").hide();
+			$("#hl7007Part").hide();
+			$("#hl7008Part").hide();
+			$("#hl7009Part").hide();
+			$("#setupPart").hide();
+			$("#testPart").hide();
+		});
+
+		$("#btnHl7003").click(function() {
+			$("#ltrOption").text("HL7003 Table Data");
+			$("#hl7003Part").show();
+			$("#hl7001Part").hide();
+			$("#hl7004Part").hide();
+			$("#hl7007Part").hide();
+			$("#hl7008Part").hide();
+			$("#hl7009Part").hide();
+			$("#setupPart").hide();
+			$("#testPart").hide();
+		});
+
+		$("#btnHl7004").click(function() {
+			$("#ltrOption").text("HL7004 Table Data");
+			$("#hl7004Part").show();
+			$("#hl7001Part").hide();
+			$("#hl7003Part").hide();
+			$("#hl7007Part").hide();
+			$("#hl7008Part").hide();
+			$("#hl7009Part").hide();
+			$("#setupPart").hide();
+			$("#testPart").hide();
+		});
+
+		$("#btnHl7007").click(function() {
+			$("#ltrOption").text("HL7007 Table Data");
+			$("#hl7007Part").show();
+			$("#hl7001Part").hide();
+			$("#hl7003Part").hide();
+			$("#hl7004Part").hide();
+			$("#hl7008Part").hide();
+			$("#hl7009Part").hide();
+			$("#setupPart").hide();
+			$("#testPart").hide();
+		});
+
+		$("#btnHl7008").click(function() {
+			$("#ltrOption").text("HL7008 Table Data");
+			$("#hl7008Part").show();
+			$("#hl7001Part").hide();
+			$("#hl7003Part").hide();
+			$("#hl7004Part").hide();
+			$("#hl7007Part").hide();
+			$("#hl7009Part").hide();
+			$("#setupPart").hide();
+			$("#testPart").hide();
+		});
+
+		$("#btnHl7009").click(function() {
+			$("#ltrOption").text("HL7009 Table Data");
+			$("#hl7009Part").show();
+			$("#hl7001Part").hide();
+			$("#hl7003Part").hide();
+			$("#hl7004Part").hide();
+			$("#hl7007Part").hide();
+			$("#hl7008Part").hide();
+			$("#setupPart").hide();
+			$("#testPart").hide();
+			
+		});
+		
+		$("#btnHl7009").click(LoadData);
+		LoadData();
+		
+		
+		$("#btnSetup").click(function() {
+			$("#ltrOption").text("Setup");
+			$("#setupPart").show();
+			$("#hl7001Part").hide();
+			$("#hl7003Part").hide();
+			$("#hl7004Part").hide();
+			$("#hl7007Part").hide();
+			$("#hl7008Part").hide();
+			$("#hl7009Part").hide();
+			$("#testPart").hide();
+		});
+		
+		/* $("#btnHl7008").click(function() {
+			$("#ltrOption").text("Test");
+			$("#testPart").show();
+			$("#setupPart").hide();
+			$("#hl7001Part").hide();
+			$("#hl7003Part").hide();
+			$("#hl7004Part").hide();
+			$("#hl7007Part").hide();
+			$("#hl7008Part").hide();
+			$("#hl7009Part").hide();
+		}); */
+
+	 // DataTable  myTableHl7001
+		 var tableHl7001 = $('#myTableHl7001').DataTable( {
+			"lengthMenu": [ [5, 10, 25, 50, -1], [5, 10, 25, 50, "All"] ],
+			"paging"	: true,
+	        "ordering"	: true,
+	        "info"		: true,
+	        "pagingType": "full_numbers",
+	        
+	        "ajax": {
+	            "url": "/hl7001Data",
+	            },
+	            
+            "columns": [
+            	{
+                    "className":      'details-control',
+                    "orderable":      false,
+                    "data":           null,
+                    "defaultContent": ''
+                },
+                { "data": "messageNo" },
+                { "data": "orderNo"},
+                { "data": "orderDate"},
+                { "data": "clientCode"}
+               ],
+              "order": [[1, 'asc']]
+	        
+		} ); 
+		
+		 // Add event listener for opening and closing details
+	     $('#myTableHl7001 tbody').on('click', 'td.details-control', function () {
+	        var tr = $(this).closest('tr');
+	        var row = tableHl7001.row( tr );
+	 
+	        if ( row.child.isShown() ) {
+	            // This row is already open - close it
+	            row.child.hide();
+	            tr.removeClass('shown');
+	        }
+	        else {
+	            // Open this row
+	            row.child( formatHL7001(row.data()) ).show();
+	            tr.addClass('shown');
+	        }
+	    } ); 
+		 
+		 
+	 // DataTable  myTableHl7007
+	    $('#myTableHl7007').DataTable( {
+			"lengthMenu": [ [5, 10, 25, 50, -1], [5, 10, 25, 50, "All"] ],
+			"paging"	: true,
+	        "ordering"	: true,
+	        "info"		: true,
+	        "pagingType": "full_numbers",
+	        
+	        "ajax": {
+	            "url": "/hl7007Data",
+	            },
+	            
+            "columns": [
+                { "data": "messageNo" },
+                { "data": "connOpenDate"},
+                { "data": "portAddress"},
+                { "data": "clientCode"}
+               ],
+              "order": [[1, 'asc']]
+	        
+		} );
+	 
+	 // DataTable  myTableHl7009
+	
+	    
+	 
+	 
+	 // DataTable  myTableHl7003
+		var tableHl7003 = $('#myTableHl7003').DataTable( {
+			"lengthMenu": [ [5, 10, 25, 50, -1], [5, 10, 25, 50, "All"] ],
+			"paging"	: true,
+	        "ordering"	: true,
+	        "info"		: true,
+	        /* "scrollX"	: true, */
+	        "pagingType": "full_numbers",
+	        
+	        "ajax": {
+	            "url": "/outMsgs",
+	            },
+	            
+            "columns": [
+            	{
+                    "className":      'details-control',
+                    "orderable":      false,
+                    "data":           null,
+                    "defaultContent": ''
+                },
+                { "data": "orderNo" },
+                { "data": "messageNo"},
+                { "data": "orderDate"},
+                { "data": "clientCode"}
+               ],
+              "order": [[1, 'asc']]
+	        
+		} ); 
+		
+		 // Add event listener for opening and closing details
+	    $('#myTableHl7003 tbody').on('click', 'td.details-control', function () {
+	        var tr = $(this).closest('tr');
+	        var row = tableHl7003.row( tr );
+	 
+	        if ( row.child.isShown() ) {
+	            // This row is already open - close it
+	            row.child.hide();
+	            tr.removeClass('shown');
+	        }
+	        else {
+	            // Open this row
+	            row.child( formatHL7003(row.data()) ).show();
+	            tr.addClass('shown');
+	        }
+	    } );
+	 
+		
+	 
+	 // DataTable  myTableHl7004
+		var table = $('#myTableHl7004').DataTable( {
+			"lengthMenu": [ [5, 10, 25, 50, -1], [5, 10, 25, 50, "All"] ],
+			"paging"	: true,
+	        "ordering"	: true,
+	        "info"		: true,
+	        "pagingType": "full_numbers",
+	        
+	        "ajax": {
+	            "url": "/inMsgs",
+	            },
+	            
+            "columns": [
+            	{
+                    "className":      'details-control',
+                    "orderable":      false,
+                    "data":           null,
+                    "defaultContent": ''
+                },
+                { "data": "messageNo" },
+                { "data": function (data, type, dataToSet) {
+                   /* return moment( data.receivedDate , 'MM-DD-YYYY hh:mm').format('MM-DD-YYYY') + "<br/>" + data.receivedTime; */
+                    return data.receivedDate + "<br/>" + data.receivedTime;
+                } },
+                { "data": "messageType"}
+               ],
+              "order": [[1, 'asc']]
+	        
+		} ); 
+		
+		 // Add event listener for opening and closing details
+	    $('#myTableHl7004 tbody').on('click', 'td.details-control', function () {
+	        var tr = $(this).closest('tr');
+	        var row = table.row( tr );
+	 
+	        if ( row.child.isShown() ) {
+	            // This row is already open - close it
+	            row.child.hide();
+	            tr.removeClass('shown');
+	        }
+	        else {
+	            // Open this row
+	            row.child( formatHL7004(row.data()) ).show();
+	            tr.addClass('shown');
+	        }
+	    } );
+		 
+		 
+		 
+	 
+		
+	});
+</script>
+

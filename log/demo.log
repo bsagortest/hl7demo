@@ -1,0 +1,826 @@
+"2017-08-21 11:05:16 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-SOAK3BJ with PID 976 (D:\test_workspaces\sts_workspaces\pacs_workspaces\pacs-ui-demo\demo\target\classes started by bsago in D:\test_workspaces\sts_workspaces\pacs_workspaces\pacs-ui-demo\demo)
+""2017-08-21 11:05:16 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+""2017-08-21 11:05:16 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@17a28976: startup date [Mon Aug 21 11:05:16 BDT 2017]; root of context hierarchy
+""2017-08-21 11:05:18 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$54a87383] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2017-08-21 11:05:18 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$76d239a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2017-08-21 11:05:19 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9080 (http)
+""2017-08-21 11:05:19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-08-21 11:05:19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'dandelionFilter' to: [/*]
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dandelionServlet' to [/dandelion-assets/*]
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  c.g.d.core.web.DandelionFilter - Initializing the Dandelion context
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing configuration loader
+""2017-08-21 11:05:19 [localhost-startStop-1] WARN  c.g.d.c.c.StandardConfigurationLoader - No file "dandelion.properties" was found in "dandelion/dandelion.properties" (classpath). The default configuration will be used.
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - ===========================================
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - 
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - Dandelion "dev" profile activated.
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - 
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - ===========================================
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Scanning for components
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found component(s): ddl-core, ddl-dt
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing bundle loaders
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found bundle loader: dandelion-datatables
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found bundle loader: dandelion
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Bundle loaders initialized: dandelion-datatables, dandelion
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing extra loaders
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Extra loaders initialized: bower
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset locators
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: classpath
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: api
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: webapp
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: remote
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: jar
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: file
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset caching system
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset caching system: default
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset cache system initialized: default
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset processors
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: JsMinProcessor
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: CssMinProcessor
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: CssUrlRewritingProcessor
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset processors disabled. All assets will be served as-is.
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset versioning
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset versioning strategy: content
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset versioning strategy: fixed
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Selected asset versioning strategy: content
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing bundle storage
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Bundle storage initialized with 65 bundles
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset storage
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset storage initialized with: memory
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing handlers
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (1/3) ReloadBundlePreHandler (rank: 0)
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (2/3) ClearStoragePreHandler (rank: 0)
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (3/3) ClearCachePreHandler (rank: 0)
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (1/8) SaveRequestPostHandler (rank: 1)
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (2/8) ProcessJsPostHandler (rank: 2)
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (3/8) ETagPostHandler (rank: 10)
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (4/8) AssetInjectionPostHandler (rank: 20)
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (5/8) GzipCompressionPostHandler (rank: 30)
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (6/8) ReportAlertPostHandler (rank: 30)
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (7/8) CacheHeaderPostHandler (rank: 40)
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (8/8) DebuggerPostHandler (rank: 50)
+""2017-08-21 11:05:19 [localhost-startStop-1] INFO  c.g.d.core.web.DandelionFilter - Dandelion context initialized
+""2017-08-21 11:05:20 [restartedMain] WARN  o.s.b.a.orm.jpa.DatabaseLookup - Unable to determine jdbc url from datasource
+"org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+ 
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:339)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:366)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:139)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:105)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$be2ed7a3.CGLIB$jpaVendorAdapter$4(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$be2ed7a3$$FastClassBySpringCGLIB$$b761b9.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$be2ed7a3.jpaVendorAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+ 
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:326)
+	... 66 common frames omitted
+Caused by: java.sql.SQLException: Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+ 
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:458)
+	at oracle.jdbc.driver.PhysicalConnection.<init>(PhysicalConnection.java:546)
+	at oracle.jdbc.driver.T4CConnection.<init>(T4CConnection.java:236)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:521)
+	at oracle.jdbc.pool.OracleDataSource.getPhysicalConnection(OracleDataSource.java:280)
+	at oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:207)
+	at oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:157)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 67 common frames omitted
+Caused by: oracle.net.ns.NetException: Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+ 
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:395)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1102)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:320)
+	... 76 common frames omitted
+"2017-08-21 11:05:20 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-08-21 11:05:20 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-08-21 11:05:20 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-08-21 11:05:20 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-08-21 11:05:20 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-08-21 11:05:20 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-08-21 11:05:20 [restartedMain] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata : Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+ 
+""2017-08-21 11:05:20 [restartedMain] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+""2017-08-21 11:05:20 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2017-08-21 11:05:20 [restartedMain] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+""2017-08-21 11:05:20 [restartedMain] ERROR o.s.boot.SpringApplication - Application startup failed
+"org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:228)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:874)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:353)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 21 common frames omitted
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:254)
+	... 37 common frames omitted
+"2017-08-21 11:07:24 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-SOAK3BJ with PID 1228 (D:\test_workspaces\sts_workspaces\pacs_workspaces\pacs-ui-demo\demo\target\classes started by bsago in D:\test_workspaces\sts_workspaces\pacs_workspaces\pacs-ui-demo\demo)
+""2017-08-21 11:07:24 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+""2017-08-21 11:07:24 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3d98478c: startup date [Mon Aug 21 11:07:24 BDT 2017]; root of context hierarchy
+""2017-08-21 11:07:26 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3da98967] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2017-08-21 11:07:26 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$5fd34f86] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2017-08-21 11:07:26 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9080 (http)
+""2017-08-21 11:07:26 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-08-21 11:07:26 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+""2017-08-21 11:07:26 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'dandelionFilter' to: [/*]
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dandelionServlet' to [/dandelion-assets/*]
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  c.g.d.core.web.DandelionFilter - Initializing the Dandelion context
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing configuration loader
+""2017-08-21 11:07:27 [localhost-startStop-1] WARN  c.g.d.c.c.StandardConfigurationLoader - No file "dandelion.properties" was found in "dandelion/dandelion.properties" (classpath). The default configuration will be used.
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - ===========================================
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - 
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - Dandelion "dev" profile activated.
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - 
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - ===========================================
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Scanning for components
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found component(s): ddl-core, ddl-dt
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing bundle loaders
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found bundle loader: dandelion-datatables
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found bundle loader: dandelion
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Bundle loaders initialized: dandelion-datatables, dandelion
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing extra loaders
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Extra loaders initialized: bower
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset locators
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: classpath
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: api
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: webapp
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: remote
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: jar
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: file
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset caching system
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset caching system: default
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset cache system initialized: default
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset processors
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: JsMinProcessor
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: CssMinProcessor
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: CssUrlRewritingProcessor
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset processors disabled. All assets will be served as-is.
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset versioning
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset versioning strategy: content
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset versioning strategy: fixed
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Selected asset versioning strategy: content
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing bundle storage
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Bundle storage initialized with 65 bundles
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset storage
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset storage initialized with: memory
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing handlers
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (1/3) ReloadBundlePreHandler (rank: 0)
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (2/3) ClearStoragePreHandler (rank: 0)
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (3/3) ClearCachePreHandler (rank: 0)
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (1/8) SaveRequestPostHandler (rank: 1)
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (2/8) ProcessJsPostHandler (rank: 2)
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (3/8) ETagPostHandler (rank: 10)
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (4/8) AssetInjectionPostHandler (rank: 20)
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (5/8) GzipCompressionPostHandler (rank: 30)
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (6/8) ReportAlertPostHandler (rank: 30)
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (7/8) CacheHeaderPostHandler (rank: 40)
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (8/8) DebuggerPostHandler (rank: 50)
+""2017-08-21 11:07:27 [localhost-startStop-1] INFO  c.g.d.core.web.DandelionFilter - Dandelion context initialized
+""2017-08-21 11:07:28 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-08-21 11:07:28 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-08-21 11:07:28 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-08-21 11:07:28 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-08-21 11:07:28 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-08-21 11:07:28 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-08-21 11:07:28 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+""2017-08-21 11:07:29 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-08-21 11:07:30 [restartedMain] INFO  ca.uhn.hl7v2.util.Home - hapi.home is set to D:\test_workspaces\sts_workspaces\pacs_workspaces\pacs-ui-demo\demo\.
+""2017-08-21 11:07:30 [restartedMain] INFO  ca.uhn.hl7v2.VersionLogger - HAPI version is: 2.2
+""2017-08-21 11:07:30 [restartedMain] WARN  ca.uhn.hl7v2.VersionLogger - No HL7 structure libraries found on the classpath!
+""2017-08-21 11:07:32 [restartedMain] INFO  o.a.c.i.c.DefaultTypeConverter - Loaded 202 type converters
+""2017-08-21 11:07:32 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2017-08-21 11:07:33 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-08-21 11:07:33 [restartedMain] INFO  c.example.demo.service.ClientService - SEND MESSGAE : MSH|^~\&|MEDISYS11| MEDISYS |RIS2010| KING SAUD MEDICAL COMPLEX |||ADT^O01|MSG014|P|2.3.1||||||8859/1 
+PID|||01583120^^^MEDISYS11||ALI^^KHLID^ALI||20120522|M||| RIYADH ^^^^0|||||||||||||||||01 
+PV1||E|L1266^0001^A||||1A1E|1A1E|1A1E||||||||1A1E 
+ORC|NW|^|11931755^MEDISYS11 ||CM||1^once^^20150616110634^^3||20150616110634|^||___^|||||___^^  
+OBR||^|11931755^MEDISYS11 |00528^^|||||||||||^^^^|___^|||||||||||1^once^^20150616^^R/O|||| R/O
+""2017-08-21 11:07:33 [restartedMain] INFO  c.example.demo.service.ClientService - ACK RECEIVE::MSH|^~\&|RIS2010| KING SAUD MEDICAL COMPLEX |MEDISYS11| MEDISYS |20170821110733.441+0600||ACK^O01|2801|P|2.3.1MSA|AA|MSG014
+""2017-08-21 11:07:33 [restartedMain] INFO  o.a.c.spring.boot.RoutesCollector - Loading additional Camel XML routes from: classpath:camel/*.xml
+""2017-08-21 11:07:33 [restartedMain] INFO  o.a.c.spring.boot.RoutesCollector - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+""2017-08-21 11:07:33 [restartedMain] INFO  o.a.c.spring.boot.RoutesCollector - Starting CamelMainRunController to ensure the main thread keeps running
+""2017-08-21 11:07:33 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.19.1 (CamelContext: camel-1) is starting
+""2017-08-21 11:07:33 [CamelMainRunController] INFO  o.a.c.m.ManagedManagementStrategy - JMX is enabled
+""2017-08-21 11:07:33 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9080 (http)
+""2017-08-21 11:07:33 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 9.756 seconds (JVM running for 10.545)
+""2017-08-21 11:07:33 [CamelMainRunController] INFO  o.a.c.i.DefaultRuntimeEndpointRegistry - Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+""2017-08-21 11:07:33 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+""2017-08-21 11:07:33 [CamelMainRunController] INFO  o.a.c.component.mina2.Mina2Consumer - Bound to server address: /0.0.0.0:4001 using acceptor: (nio socket acceptor: localAddress(es): [/0:0:0:0:0:0:0:0:4001], managedSessionCount: 0)
+""2017-08-21 11:07:33 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Route: route1 started and consuming from: mina2://tcp://0.0.0.0:4001?codec=%23hl7codec&sync=true
+""2017-08-21 11:07:33 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Total 1 routes, of which 1 are started.
+""2017-08-21 11:07:33 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.19.1 (CamelContext: camel-1) started in 0.318 seconds
+""2017-08-21 11:07:52 [http-nio-9080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-08-21 11:07:53 [http-nio-9080-exec-7] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-08-21 11:07:53 [http-nio-9080-exec-5] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 11:07:53 [http-nio-9080-exec-8] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 11:10:11 [http-nio-9080-exec-5] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 11:10:11 [http-nio-9080-exec-9] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 11:10:51 [http-nio-9080-exec-7] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 11:10:51 [http-nio-9080-exec-5] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 11:14:08 [http-nio-9080-exec-1] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 11:14:08 [http-nio-9080-exec-3] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 11:14:17 [http-nio-9080-exec-3] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 11:14:17 [http-nio-9080-exec-6] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 11:34:35 [http-nio-9080-exec-10] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 11:34:37 [http-nio-9080-exec-7] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 11:34:38 [http-nio-9080-exec-5] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 11:34:39 [http-nio-9080-exec-9] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 11:48:26 [Thread-6] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3d98478c: startup date [Mon Aug 21 11:07:24 BDT 2017]; root of context hierarchy
+""2017-08-21 11:48:26 [Thread-6] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2017-08-21 11:48:26 [Thread-6] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.19.1 (CamelContext: camel-1) is shutting down
+""2017-08-21 11:48:26 [Thread-6] INFO  o.a.c.impl.DefaultShutdownStrategy - Starting to graceful shutdown 1 routes (timeout 300 seconds)
+""2017-08-21 11:48:26 [Camel (camel-1) thread #0 - ShutdownTask] INFO  o.a.c.component.mina2.Mina2Consumer - Unbinding from server address: /0.0.0.0:4001 using acceptor: (nio socket acceptor: localAddress(es): [/0:0:0:0:0:0:0:0:4001], managedSessionCount: 0)
+""2017-08-21 11:48:26 [Camel (camel-1) thread #0 - ShutdownTask] INFO  o.a.c.component.mina2.Mina2Consumer - Unbind the server address [/0:0:0:0:0:0:0:0:4001]
+""2017-08-21 11:48:26 [Camel (camel-1) thread #0 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy - Route: route1 shutdown complete, was consuming from: mina2://tcp://0.0.0.0:4001?codec=%23hl7codec&sync=true
+""2017-08-21 11:48:26 [Thread-6] INFO  o.a.c.impl.DefaultShutdownStrategy - Graceful shutdown of 1 routes completed in 0 seconds
+""2017-08-21 11:48:26 [Thread-6] INFO  o.a.camel.main.MainLifecycleStrategy - CamelContext: camel-1 has been shutdown, triggering shutdown of the JVM.
+""2017-08-21 11:48:26 [Thread-6] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.19.1 (CamelContext: camel-1) uptime 40 minutes
+""2017-08-21 11:48:26 [Thread-6] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.19.1 (CamelContext: camel-1) is shutdown in 0.078 seconds
+""2017-08-21 11:48:26 [Thread-6] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2017-08-21 11:48:27 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-SOAK3BJ with PID 1228 (D:\test_workspaces\sts_workspaces\pacs_workspaces\pacs-ui-demo\demo\target\classes started by bsago in D:\test_workspaces\sts_workspaces\pacs_workspaces\pacs-ui-demo\demo)
+""2017-08-21 11:48:27 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+""2017-08-21 11:48:28 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5625517: startup date [Mon Aug 21 11:48:28 BDT 2017]; root of context hierarchy
+""2017-08-21 11:48:30 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3da98967] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2017-08-21 11:48:30 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$5fd34f86] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2017-08-21 11:48:30 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9080 (http)
+""2017-08-21 11:48:30 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-08-21 11:48:30 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'dandelionFilter' to: [/*]
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dandelionServlet' to [/dandelion-assets/*]
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  c.g.d.core.web.DandelionFilter - Initializing the Dandelion context
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing configuration loader
+""2017-08-21 11:48:30 [localhost-startStop-1] WARN  c.g.d.c.c.StandardConfigurationLoader - No file "dandelion.properties" was found in "dandelion/dandelion.properties" (classpath). The default configuration will be used.
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - ===========================================
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - 
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - Dandelion "dev" profile activated.
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - 
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - ===========================================
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Scanning for components
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found component(s): ddl-core, ddl-dt
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing bundle loaders
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found bundle loader: dandelion-datatables
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found bundle loader: dandelion
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Bundle loaders initialized: dandelion-datatables, dandelion
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing extra loaders
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Extra loaders initialized: bower
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset locators
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: classpath
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: api
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: webapp
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: remote
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: jar
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: file
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset caching system
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset caching system: default
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset cache system initialized: default
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset processors
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: JsMinProcessor
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: CssMinProcessor
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: CssUrlRewritingProcessor
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset processors disabled. All assets will be served as-is.
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset versioning
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset versioning strategy: content
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset versioning strategy: fixed
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Selected asset versioning strategy: content
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing bundle storage
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Bundle storage initialized with 65 bundles
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset storage
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset storage initialized with: memory
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing handlers
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (1/3) ReloadBundlePreHandler (rank: 0)
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (2/3) ClearStoragePreHandler (rank: 0)
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (3/3) ClearCachePreHandler (rank: 0)
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (1/8) SaveRequestPostHandler (rank: 1)
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (2/8) ProcessJsPostHandler (rank: 2)
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (3/8) ETagPostHandler (rank: 10)
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (4/8) AssetInjectionPostHandler (rank: 20)
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (5/8) GzipCompressionPostHandler (rank: 30)
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (6/8) ReportAlertPostHandler (rank: 30)
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (7/8) CacheHeaderPostHandler (rank: 40)
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (8/8) DebuggerPostHandler (rank: 50)
+""2017-08-21 11:48:30 [localhost-startStop-1] INFO  c.g.d.core.web.DandelionFilter - Dandelion context initialized
+""2017-08-21 11:48:35 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-08-21 11:48:35 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-08-21 11:48:36 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+""2017-08-21 11:48:36 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-08-21 11:48:36 [restartedMain] INFO  o.a.c.i.c.DefaultTypeConverter - Loaded 202 type converters
+""2017-08-21 11:48:36 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2017-08-21 11:48:36 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-08-21 11:48:36 [restartedMain] INFO  c.example.demo.service.ClientService - SEND MESSGAE : MSH|^~\&|MEDISYS11| MEDISYS |RIS2010| KING SAUD MEDICAL COMPLEX |||ADT^O01|MSG014|P|2.3.1||||||8859/1 
+PID|||01583120^^^MEDISYS11||ALI^^KHLID^ALI||20120522|M||| RIYADH ^^^^0|||||||||||||||||01 
+PV1||E|L1266^0001^A||||1A1E|1A1E|1A1E||||||||1A1E 
+ORC|NW|^|11931755^MEDISYS11 ||CM||1^once^^20150616110634^^3||20150616110634|^||___^|||||___^^  
+OBR||^|11931755^MEDISYS11 |00528^^|||||||||||^^^^|___^|||||||||||1^once^^20150616^^R/O|||| R/O
+""2017-08-21 11:48:36 [restartedMain] INFO  c.example.demo.service.ClientService - ACK RECEIVE::MSH|^~\&|RIS2010| KING SAUD MEDICAL COMPLEX |MEDISYS11| MEDISYS |20170821114836.811+0600||ACK^O01|2802|P|2.3.1MSA|AA|MSG014
+""2017-08-21 11:48:36 [restartedMain] INFO  o.a.c.spring.boot.RoutesCollector - Loading additional Camel XML routes from: classpath:camel/*.xml
+""2017-08-21 11:48:36 [restartedMain] INFO  o.a.c.spring.boot.RoutesCollector - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+""2017-08-21 11:48:36 [restartedMain] INFO  o.a.c.spring.boot.RoutesCollector - Starting CamelMainRunController to ensure the main thread keeps running
+""2017-08-21 11:48:36 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.19.1 (CamelContext: camel-2) is starting
+""2017-08-21 11:48:36 [CamelMainRunController] INFO  o.a.c.m.ManagedManagementStrategy - JMX is enabled
+""2017-08-21 11:48:36 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9080 (http)
+""2017-08-21 11:48:36 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 9.121 seconds (JVM running for 2473.8)
+""2017-08-21 11:48:36 [CamelMainRunController] INFO  o.a.c.i.DefaultRuntimeEndpointRegistry - Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+""2017-08-21 11:48:36 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+""2017-08-21 11:48:36 [CamelMainRunController] INFO  o.a.c.component.mina2.Mina2Consumer - Bound to server address: /0.0.0.0:4001 using acceptor: (nio socket acceptor: localAddress(es): [/0:0:0:0:0:0:0:0:4001], managedSessionCount: 0)
+""2017-08-21 11:48:36 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Route: route2 started and consuming from: mina2://tcp://0.0.0.0:4001?codec=%23hl7codec&sync=true
+""2017-08-21 11:48:36 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Total 1 routes, of which 1 are started.
+""2017-08-21 11:48:36 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.19.1 (CamelContext: camel-2) started in 0.065 seconds
+""2017-08-21 11:48:41 [http-nio-9080-exec-10] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-08-21 11:48:41 [http-nio-9080-exec-5] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-08-21 11:48:41 [http-nio-9080-exec-2] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 11:48:41 [http-nio-9080-exec-1] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 11:58:16 [http-nio-9080-exec-10] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 11:58:18 [http-nio-9080-exec-6] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 12:00:28 [http-nio-9080-exec-9] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 12:00:28 [http-nio-9080-exec-7] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 12:08:59 [http-nio-9080-exec-4] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 12:08:59 [http-nio-9080-exec-2] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 12:24:59 [Thread-11] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5625517: startup date [Mon Aug 21 11:48:28 BDT 2017]; root of context hierarchy
+""2017-08-21 12:24:59 [Thread-11] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2017-08-21 12:24:59 [Thread-11] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.19.1 (CamelContext: camel-2) is shutting down
+""2017-08-21 12:24:59 [Thread-11] INFO  o.a.c.impl.DefaultShutdownStrategy - Starting to graceful shutdown 1 routes (timeout 300 seconds)
+""2017-08-21 12:24:59 [Camel (camel-2) thread #1 - ShutdownTask] INFO  o.a.c.component.mina2.Mina2Consumer - Unbinding from server address: /0.0.0.0:4001 using acceptor: (nio socket acceptor: localAddress(es): [/0:0:0:0:0:0:0:0:4001], managedSessionCount: 0)
+""2017-08-21 12:24:59 [Camel (camel-2) thread #1 - ShutdownTask] INFO  o.a.c.component.mina2.Mina2Consumer - Unbind the server address [/0:0:0:0:0:0:0:0:4001]
+""2017-08-21 12:24:59 [Camel (camel-2) thread #1 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy - Route: route2 shutdown complete, was consuming from: mina2://tcp://0.0.0.0:4001?codec=%23hl7codec&sync=true
+""2017-08-21 12:24:59 [Thread-11] INFO  o.a.c.impl.DefaultShutdownStrategy - Graceful shutdown of 1 routes completed in 0 seconds
+""2017-08-21 12:24:59 [Thread-11] INFO  o.a.camel.main.MainLifecycleStrategy - CamelContext: camel-2 has been shutdown, triggering shutdown of the JVM.
+""2017-08-21 12:24:59 [Thread-11] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.19.1 (CamelContext: camel-2) uptime 36 minutes
+""2017-08-21 12:24:59 [Thread-11] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.19.1 (CamelContext: camel-2) is shutdown in 0.068 seconds
+""2017-08-21 12:24:59 [Thread-11] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2017-08-21 12:25:00 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-SOAK3BJ with PID 1228 (D:\test_workspaces\sts_workspaces\pacs_workspaces\pacs-ui-demo\demo\target\classes started by bsago in D:\test_workspaces\sts_workspaces\pacs_workspaces\pacs-ui-demo\demo)
+""2017-08-21 12:25:00 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+""2017-08-21 12:25:00 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8f3d537: startup date [Mon Aug 21 12:25:00 BDT 2017]; root of context hierarchy
+""2017-08-21 12:25:00 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3da98967] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2017-08-21 12:25:00 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$5fd34f86] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2017-08-21 12:25:01 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9080 (http)
+""2017-08-21 12:25:01 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-08-21 12:25:01 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'dandelionFilter' to: [/*]
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dandelionServlet' to [/dandelion-assets/*]
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  c.g.d.core.web.DandelionFilter - Initializing the Dandelion context
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing configuration loader
+""2017-08-21 12:25:01 [localhost-startStop-1] WARN  c.g.d.c.c.StandardConfigurationLoader - No file "dandelion.properties" was found in "dandelion/dandelion.properties" (classpath). The default configuration will be used.
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - ===========================================
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - 
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - Dandelion "dev" profile activated.
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - 
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - ===========================================
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Scanning for components
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found component(s): ddl-core, ddl-dt
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing bundle loaders
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found bundle loader: dandelion-datatables
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found bundle loader: dandelion
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Bundle loaders initialized: dandelion-datatables, dandelion
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing extra loaders
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Extra loaders initialized: bower
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset locators
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: classpath
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: api
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: webapp
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: remote
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: jar
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: file
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset caching system
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset caching system: default
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset cache system initialized: default
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset processors
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: JsMinProcessor
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: CssMinProcessor
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: CssUrlRewritingProcessor
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset processors disabled. All assets will be served as-is.
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset versioning
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset versioning strategy: content
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset versioning strategy: fixed
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Selected asset versioning strategy: content
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing bundle storage
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Bundle storage initialized with 65 bundles
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset storage
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset storage initialized with: memory
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing handlers
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (1/3) ReloadBundlePreHandler (rank: 0)
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (2/3) ClearStoragePreHandler (rank: 0)
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (3/3) ClearCachePreHandler (rank: 0)
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (1/8) SaveRequestPostHandler (rank: 1)
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (2/8) ProcessJsPostHandler (rank: 2)
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (3/8) ETagPostHandler (rank: 10)
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (4/8) AssetInjectionPostHandler (rank: 20)
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (5/8) GzipCompressionPostHandler (rank: 30)
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (6/8) ReportAlertPostHandler (rank: 30)
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (7/8) CacheHeaderPostHandler (rank: 40)
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (8/8) DebuggerPostHandler (rank: 50)
+""2017-08-21 12:25:01 [localhost-startStop-1] INFO  c.g.d.core.web.DandelionFilter - Dandelion context initialized
+""2017-08-21 12:25:02 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-08-21 12:25:02 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-08-21 12:25:02 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle9iDialect
+""2017-08-21 12:25:04 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-08-21 12:25:04 [restartedMain] INFO  o.a.c.i.c.DefaultTypeConverter - Loaded 202 type converters
+""2017-08-21 12:25:05 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2017-08-21 12:25:05 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-08-21 12:25:05 [restartedMain] INFO  c.example.demo.service.ClientService - SEND MESSGAE : MSH|^~\&|MEDISYS11| MEDISYS |RIS2010| KING SAUD MEDICAL COMPLEX |||ADT^O01|MSG014|P|2.3.1||||||8859/1 
+PID|||01583120^^^MEDISYS11||ALI^^KHLID^ALI||20120522|M||| RIYADH ^^^^0|||||||||||||||||01 
+PV1||E|L1266^0001^A||||1A1E|1A1E|1A1E||||||||1A1E 
+ORC|NW|^|11931755^MEDISYS11 ||CM||1^once^^20150616110634^^3||20150616110634|^||___^|||||___^^  
+OBR||^|11931755^MEDISYS11 |00528^^|||||||||||^^^^|___^|||||||||||1^once^^20150616^^R/O|||| R/O
+""2017-08-21 12:25:05 [restartedMain] INFO  c.example.demo.service.ClientService - ACK RECEIVE::MSH|^~\&|RIS2010| KING SAUD MEDICAL COMPLEX |MEDISYS11| MEDISYS |20170821122505.277+0600||ACK^O01|2803|P|2.3.1MSA|AA|MSG014
+""2017-08-21 12:25:05 [restartedMain] INFO  o.a.c.spring.boot.RoutesCollector - Loading additional Camel XML routes from: classpath:camel/*.xml
+""2017-08-21 12:25:05 [restartedMain] INFO  o.a.c.spring.boot.RoutesCollector - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+""2017-08-21 12:25:05 [restartedMain] INFO  o.a.c.spring.boot.RoutesCollector - Starting CamelMainRunController to ensure the main thread keeps running
+""2017-08-21 12:25:05 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9080 (http)
+""2017-08-21 12:25:05 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 5.079 seconds (JVM running for 4662.267)
+""2017-08-21 12:25:05 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.19.1 (CamelContext: camel-3) is starting
+""2017-08-21 12:25:05 [CamelMainRunController] INFO  o.a.c.m.ManagedManagementStrategy - JMX is enabled
+""2017-08-21 12:25:05 [CamelMainRunController] INFO  o.a.c.i.DefaultRuntimeEndpointRegistry - Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+""2017-08-21 12:25:05 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+""2017-08-21 12:25:05 [CamelMainRunController] INFO  o.a.c.component.mina2.Mina2Consumer - Bound to server address: /0.0.0.0:4001 using acceptor: (nio socket acceptor: localAddress(es): [/0:0:0:0:0:0:0:0:4001], managedSessionCount: 0)
+""2017-08-21 12:25:05 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Route: route3 started and consuming from: mina2://tcp://0.0.0.0:4001?codec=%23hl7codec&sync=true
+""2017-08-21 12:25:05 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Total 1 routes, of which 1 are started.
+""2017-08-21 12:25:05 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.19.1 (CamelContext: camel-3) started in 0.078 seconds
+""2017-08-21 12:26:51 [http-nio-9080-exec-10] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-08-21 12:26:57 [http-nio-9080-exec-3] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-08-21 12:26:57 [http-nio-9080-exec-9] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 12:26:58 [http-nio-9080-exec-8] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 12:28:21 [http-nio-9080-exec-1] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 12:28:21 [http-nio-9080-exec-2] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 12:29:47 [http-nio-9080-exec-10] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 12:29:47 [http-nio-9080-exec-9] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 12:31:08 [http-nio-9080-exec-2] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 12:31:08 [http-nio-9080-exec-9] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 12:32:32 [http-nio-9080-exec-9] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 12:32:32 [http-nio-9080-exec-5] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 12:35:49 [http-nio-9080-exec-10] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 12:35:49 [http-nio-9080-exec-7] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 12:36:29 [http-nio-9080-exec-7] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 12:36:29 [http-nio-9080-exec-6] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 12:43:26 [Thread-18] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@8f3d537: startup date [Mon Aug 21 12:25:00 BDT 2017]; root of context hierarchy
+""2017-08-21 12:43:26 [Thread-18] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2017-08-21 12:43:26 [Thread-18] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.19.1 (CamelContext: camel-3) is shutting down
+""2017-08-21 12:43:26 [Thread-18] INFO  o.a.c.impl.DefaultShutdownStrategy - Starting to graceful shutdown 1 routes (timeout 300 seconds)
+""2017-08-21 12:43:26 [Camel (camel-3) thread #2 - ShutdownTask] INFO  o.a.c.component.mina2.Mina2Consumer - Unbinding from server address: /0.0.0.0:4001 using acceptor: (nio socket acceptor: localAddress(es): [/0:0:0:0:0:0:0:0:4001], managedSessionCount: 0)
+""2017-08-21 12:43:26 [Camel (camel-3) thread #2 - ShutdownTask] INFO  o.a.c.component.mina2.Mina2Consumer - Unbind the server address [/0:0:0:0:0:0:0:0:4001]
+""2017-08-21 12:43:26 [Camel (camel-3) thread #2 - ShutdownTask] INFO  o.a.c.impl.DefaultShutdownStrategy - Route: route3 shutdown complete, was consuming from: mina2://tcp://0.0.0.0:4001?codec=%23hl7codec&sync=true
+""2017-08-21 12:43:26 [Thread-18] INFO  o.a.c.impl.DefaultShutdownStrategy - Graceful shutdown of 1 routes completed in 0 seconds
+""2017-08-21 12:43:26 [Thread-18] INFO  o.a.camel.main.MainLifecycleStrategy - CamelContext: camel-3 has been shutdown, triggering shutdown of the JVM.
+""2017-08-21 12:43:26 [Thread-18] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.19.1 (CamelContext: camel-3) uptime 18 minutes
+""2017-08-21 12:43:26 [Thread-18] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.19.1 (CamelContext: camel-3) is shutdown in 0.025 seconds
+""2017-08-21 12:43:26 [Thread-18] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2017-08-21 12:43:26 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-SOAK3BJ with PID 1228 (D:\test_workspaces\sts_workspaces\pacs_workspaces\pacs-ui-demo\demo\target\classes started by bsago in D:\test_workspaces\sts_workspaces\pacs_workspaces\pacs-ui-demo\demo)
+""2017-08-21 12:43:26 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+""2017-08-21 12:43:26 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@18a22c6b: startup date [Mon Aug 21 12:43:26 BDT 2017]; root of context hierarchy
+""2017-08-21 12:43:27 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3da98967] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2017-08-21 12:43:27 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$5fd34f86] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2017-08-21 12:43:27 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9080 (http)
+""2017-08-21 12:43:27 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-08-21 12:43:27 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'dandelionFilter' to: [/*]
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dandelionServlet' to [/dandelion-assets/*]
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  c.g.d.core.web.DandelionFilter - Initializing the Dandelion context
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing configuration loader
+""2017-08-21 12:43:27 [localhost-startStop-1] WARN  c.g.d.c.c.StandardConfigurationLoader - No file "dandelion.properties" was found in "dandelion/dandelion.properties" (classpath). The default configuration will be used.
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - ===========================================
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - 
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - Dandelion "dev" profile activated.
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - 
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - ===========================================
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Scanning for components
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found component(s): ddl-core, ddl-dt
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing bundle loaders
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found bundle loader: dandelion-datatables
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found bundle loader: dandelion
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Bundle loaders initialized: dandelion-datatables, dandelion
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing extra loaders
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Extra loaders initialized: bower
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset locators
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: classpath
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: api
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: webapp
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: remote
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: jar
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: file
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset caching system
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset caching system: default
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset cache system initialized: default
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset processors
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: JsMinProcessor
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: CssMinProcessor
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: CssUrlRewritingProcessor
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset processors disabled. All assets will be served as-is.
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset versioning
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset versioning strategy: content
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset versioning strategy: fixed
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Selected asset versioning strategy: content
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing bundle storage
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Bundle storage initialized with 65 bundles
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset storage
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset storage initialized with: memory
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing handlers
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (1/3) ReloadBundlePreHandler (rank: 0)
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (2/3) ClearStoragePreHandler (rank: 0)
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (3/3) ClearCachePreHandler (rank: 0)
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (1/8) SaveRequestPostHandler (rank: 1)
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (2/8) ProcessJsPostHandler (rank: 2)
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (3/8) ETagPostHandler (rank: 10)
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (4/8) AssetInjectionPostHandler (rank: 20)
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (5/8) GzipCompressionPostHandler (rank: 30)
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (6/8) ReportAlertPostHandler (rank: 30)
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (7/8) CacheHeaderPostHandler (rank: 40)
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (8/8) DebuggerPostHandler (rank: 50)
+""2017-08-21 12:43:27 [localhost-startStop-1] INFO  c.g.d.core.web.DandelionFilter - Dandelion context initialized
+""2017-08-21 12:43:27 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-08-21 12:43:27 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-08-21 12:43:28 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+""2017-08-21 12:43:28 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-08-21 12:43:28 [restartedMain] INFO  o.a.c.i.c.DefaultTypeConverter - Loaded 202 type converters
+""2017-08-21 12:43:28 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2017-08-21 12:43:28 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-08-21 12:43:28 [restartedMain] INFO  c.example.demo.service.ClientService - SEND MESSGAE : MSH|^~\&|MEDISYS11| MEDISYS |RIS2010| KING SAUD MEDICAL COMPLEX |||ADT^O01|MSG014|P|2.3.1||||||8859/1 
+PID|||01583120^^^MEDISYS11||ALI^^KHLID^ALI||20120522|M||| RIYADH ^^^^0|||||||||||||||||01 
+PV1||E|L1266^0001^A||||1A1E|1A1E|1A1E||||||||1A1E 
+ORC|NW|^|11931755^MEDISYS11 ||CM||1^once^^20150616110634^^3||20150616110634|^||___^|||||___^^  
+OBR||^|11931755^MEDISYS11 |00528^^|||||||||||^^^^|___^|||||||||||1^once^^20150616^^R/O|||| R/O
+""2017-08-21 12:43:28 [restartedMain] INFO  c.example.demo.service.ClientService - ACK RECEIVE::MSH|^~\&|RIS2010| KING SAUD MEDICAL COMPLEX |MEDISYS11| MEDISYS |20170821124328.717+0600||ACK^O01|2804|P|2.3.1MSA|AA|MSG014
+""2017-08-21 12:43:28 [restartedMain] INFO  o.a.c.spring.boot.RoutesCollector - Loading additional Camel XML routes from: classpath:camel/*.xml
+""2017-08-21 12:43:28 [restartedMain] INFO  o.a.c.spring.boot.RoutesCollector - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+""2017-08-21 12:43:28 [restartedMain] INFO  o.a.c.spring.boot.RoutesCollector - Starting CamelMainRunController to ensure the main thread keeps running
+""2017-08-21 12:43:28 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9080 (http)
+""2017-08-21 12:43:28 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 1.958 seconds (JVM running for 5765.695)
+""2017-08-21 12:43:28 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.19.1 (CamelContext: camel-4) is starting
+""2017-08-21 12:43:28 [CamelMainRunController] INFO  o.a.c.m.ManagedManagementStrategy - JMX is enabled
+""2017-08-21 12:43:28 [CamelMainRunController] INFO  o.a.c.i.DefaultRuntimeEndpointRegistry - Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+""2017-08-21 12:43:28 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+""2017-08-21 12:43:28 [CamelMainRunController] INFO  o.a.c.component.mina2.Mina2Consumer - Bound to server address: /0.0.0.0:4001 using acceptor: (nio socket acceptor: localAddress(es): [/0:0:0:0:0:0:0:0:4001], managedSessionCount: 0)
+""2017-08-21 12:43:28 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Route: route4 started and consuming from: mina2://tcp://0.0.0.0:4001?codec=%23hl7codec&sync=true
+""2017-08-21 12:43:28 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Total 1 routes, of which 1 are started.
+""2017-08-21 12:43:28 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.19.1 (CamelContext: camel-4) started in 0.085 seconds
+""2017-08-21 12:43:37 [http-nio-9080-exec-10] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-08-21 12:43:42 [http-nio-9080-exec-7] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 12:43:42 [http-nio-9080-exec-3] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 12:43:42 [http-nio-9080-exec-5] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-08-21 12:45:32 [http-nio-9080-exec-9] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 12:45:32 [http-nio-9080-exec-10] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 12:51:54 [http-nio-9080-exec-10] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 12:51:54 [http-nio-9080-exec-2] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 12:53:26 [http-nio-9080-exec-9] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 12:53:26 [http-nio-9080-exec-10] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 14:31:29 [restartedMain] INFO  com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-SOAK3BJ with PID 6940 (D:\test_workspaces\sts_workspaces\pacs_workspaces\pacs-ui-demo\demo\target\classes started by bsago in D:\test_workspaces\sts_workspaces\pacs_workspaces\pacs-ui-demo\demo)
+""2017-08-21 14:31:29 [restartedMain] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+""2017-08-21 14:31:30 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@50ff62dc: startup date [Mon Aug 21 14:31:30 BDT 2017]; root of context hierarchy
+""2017-08-21 14:31:32 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c8b146ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2017-08-21 14:31:32 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$eadb0ccd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2017-08-21 14:31:32 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 9080 (http)
+""2017-08-21 14:31:32 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2017-08-21 14:31:32 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'dandelionFilter' to: [/*]
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dandelionServlet' to [/dandelion-assets/*]
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  c.g.d.core.web.DandelionFilter - Initializing the Dandelion context
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing configuration loader
+""2017-08-21 14:31:32 [localhost-startStop-1] WARN  c.g.d.c.c.StandardConfigurationLoader - No file "dandelion.properties" was found in "dandelion/dandelion.properties" (classpath). The default configuration will be used.
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - ===========================================
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - 
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - Dandelion "dev" profile activated.
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - 
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  c.g.d.core.config.Configuration - ===========================================
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Scanning for components
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found component(s): ddl-core, ddl-dt
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing bundle loaders
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found bundle loader: dandelion-datatables
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found bundle loader: dandelion
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Bundle loaders initialized: dandelion-datatables, dandelion
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing extra loaders
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Extra loaders initialized: bower
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset locators
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: classpath
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: api
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: webapp
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: remote
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: jar
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset locator: file
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset caching system
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset caching system: default
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset cache system initialized: default
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset processors
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: JsMinProcessor
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: CssMinProcessor
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset processor: CssUrlRewritingProcessor
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset processors disabled. All assets will be served as-is.
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset versioning
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset versioning strategy: content
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Found asset versioning strategy: fixed
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Selected asset versioning strategy: content
+""2017-08-21 14:31:32 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing bundle storage
+""2017-08-21 14:31:33 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Bundle storage initialized with 65 bundles
+""2017-08-21 14:31:33 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing asset storage
+""2017-08-21 14:31:33 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Asset storage initialized with: memory
+""2017-08-21 14:31:33 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Initializing handlers
+""2017-08-21 14:31:33 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (1/3) ReloadBundlePreHandler (rank: 0)
+""2017-08-21 14:31:33 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (2/3) ClearStoragePreHandler (rank: 0)
+""2017-08-21 14:31:33 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Pre-handler (3/3) ClearCachePreHandler (rank: 0)
+""2017-08-21 14:31:33 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (1/8) SaveRequestPostHandler (rank: 1)
+""2017-08-21 14:31:33 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (2/8) ProcessJsPostHandler (rank: 2)
+""2017-08-21 14:31:33 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (3/8) ETagPostHandler (rank: 10)
+""2017-08-21 14:31:33 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (4/8) AssetInjectionPostHandler (rank: 20)
+""2017-08-21 14:31:33 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (5/8) GzipCompressionPostHandler (rank: 30)
+""2017-08-21 14:31:33 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (6/8) ReportAlertPostHandler (rank: 30)
+""2017-08-21 14:31:33 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (7/8) CacheHeaderPostHandler (rank: 40)
+""2017-08-21 14:31:33 [localhost-startStop-1] INFO  com.github.dandelion.core.Context - Post-handler (8/8) DebuggerPostHandler (rank: 50)
+""2017-08-21 14:31:33 [localhost-startStop-1] INFO  c.g.d.core.web.DandelionFilter - Dandelion context initialized
+""2017-08-21 14:31:34 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2017-08-21 14:31:34 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2017-08-21 14:31:34 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2017-08-21 14:31:34 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2017-08-21 14:31:34 [restartedMain] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2017-08-21 14:31:34 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2017-08-21 14:31:34 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+""2017-08-21 14:31:35 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2017-08-21 14:31:35 [restartedMain] INFO  ca.uhn.hl7v2.util.Home - hapi.home is set to D:\test_workspaces\sts_workspaces\pacs_workspaces\pacs-ui-demo\demo\.
+""2017-08-21 14:31:35 [restartedMain] INFO  ca.uhn.hl7v2.VersionLogger - HAPI version is: 2.2
+""2017-08-21 14:31:35 [restartedMain] WARN  ca.uhn.hl7v2.VersionLogger - No HL7 structure libraries found on the classpath!
+""2017-08-21 14:31:37 [restartedMain] INFO  o.a.c.i.c.DefaultTypeConverter - Loaded 202 type converters
+""2017-08-21 14:31:37 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2017-08-21 14:31:37 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2017-08-21 14:31:38 [restartedMain] INFO  c.example.demo.service.ClientService - SEND MESSGAE : MSH|^~\&|MEDISYS11| MEDISYS |RIS2010| KING SAUD MEDICAL COMPLEX |||ADT^O01|MSG014|P|2.3.1||||||8859/1 
+PID|||01583120^^^MEDISYS11||ALI^^KHLID^ALI||20120522|M||| RIYADH ^^^^0|||||||||||||||||01 
+PV1||E|L1266^0001^A||||1A1E|1A1E|1A1E||||||||1A1E 
+ORC|NW|^|11931755^MEDISYS11 ||CM||1^once^^20150616110634^^3||20150616110634|^||___^|||||___^^  
+OBR||^|11931755^MEDISYS11 |00528^^|||||||||||^^^^|___^|||||||||||1^once^^20150616^^R/O|||| R/O
+""2017-08-21 14:31:38 [restartedMain] INFO  c.example.demo.service.ClientService - ACK RECEIVE::MSH|^~\&|RIS2010| KING SAUD MEDICAL COMPLEX |MEDISYS11| MEDISYS |20170821143138.061+0600||ACK^O01|2805|P|2.3.1MSA|AA|MSG014
+""2017-08-21 14:31:38 [restartedMain] INFO  o.a.c.spring.boot.RoutesCollector - Loading additional Camel XML routes from: classpath:camel/*.xml
+""2017-08-21 14:31:38 [restartedMain] INFO  o.a.c.spring.boot.RoutesCollector - Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+""2017-08-21 14:31:38 [restartedMain] INFO  o.a.c.spring.boot.RoutesCollector - Starting CamelMainRunController to ensure the main thread keeps running
+""2017-08-21 14:31:38 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.19.1 (CamelContext: camel-1) is starting
+""2017-08-21 14:31:38 [CamelMainRunController] INFO  o.a.c.m.ManagedManagementStrategy - JMX is enabled
+""2017-08-21 14:31:38 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 9080 (http)
+""2017-08-21 14:31:38 [restartedMain] INFO  com.example.demo.DemoApplication - Started DemoApplication in 8.617 seconds (JVM running for 9.06)
+""2017-08-21 14:31:38 [CamelMainRunController] INFO  o.a.c.i.DefaultRuntimeEndpointRegistry - Runtime endpoint registry is in extended mode gathering usage statistics of all incoming and outgoing endpoints (cache limit: 1000)
+""2017-08-21 14:31:38 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+""2017-08-21 14:31:38 [CamelMainRunController] INFO  o.a.c.component.mina2.Mina2Consumer - Bound to server address: /0.0.0.0:4001 using acceptor: (nio socket acceptor: localAddress(es): [/0:0:0:0:0:0:0:0:4001], managedSessionCount: 0)
+""2017-08-21 14:31:38 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Route: route1 started and consuming from: mina2://tcp://0.0.0.0:4001?codec=%23hl7codec&sync=true
+""2017-08-21 14:31:38 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Total 1 routes, of which 1 are started.
+""2017-08-21 14:31:38 [CamelMainRunController] INFO  o.a.camel.impl.DefaultCamelContext - Apache Camel 2.19.1 (CamelContext: camel-1) started in 0.221 seconds
+""2017-08-21 14:31:41 [http-nio-9080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2017-08-21 14:31:42 [http-nio-9080-exec-9] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2017-08-21 14:31:42 [http-nio-9080-exec-4] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 14:31:42 [http-nio-9080-exec-2] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 14:34:50 [http-nio-9080-exec-2] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 14:34:50 [http-nio-9080-exec-4] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 14:35:44 [http-nio-9080-exec-4] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 14:35:44 [http-nio-9080-exec-2] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+""2017-08-21 14:36:13 [http-nio-9080-exec-9] INFO  c.e.d.c.OutBoundMessageController - sqlObm:: select hl7003.t_order_date, hl7003.t_order_no, hl7003.t_hl7_msg_no, hl7003.t_hl7_msg, hl7003.t_client_code, hl7008.t_receiving_date, hl7008.t_receiving_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7003, hl7008 where hl7003.t_hl7_msg_no = hl7008.t_out_msg_no
+""2017-08-21 14:36:13 [http-nio-9080-exec-7] INFO  c.e.d.c.InBoundMessageController - sqlIbm:: select hl7004.t_hl7_msg_no, hl7004.t_received_date, hl7004.t_received_time, hl7004.t_msg_data, hl7004.t_msg_data1, hl7004.t_msg_type, hl7008.t_sending_date, hl7008.t_sending_time, hl7008.t_in_msg_no, hl7008.t_ack_msg, hl7008.t_out_msg_no, hl7008.t_transmission_type, hl7008.t_vendor_id, hl7008.t_client_code from hl7004, hl7008 where hl7004.t_hl7_msg_no = hl7008.t_in_msg_no
+"
