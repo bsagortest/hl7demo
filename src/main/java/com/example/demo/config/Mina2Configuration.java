@@ -8,7 +8,7 @@ import org.apache.camel.impl.SimpleRegistry;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
+//@Configuration
 public class Mina2Configuration {
 
 	@Bean

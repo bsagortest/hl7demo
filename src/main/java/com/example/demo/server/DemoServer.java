@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 import ca.uhn.hl7v2.HL7Exception;
 
-@Component
+//@Component
 public class DemoServer extends RouteBuilder {
 
 	@Override
